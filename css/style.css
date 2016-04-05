@@ -3,3 +3,16 @@
 Custom CSS Style - if needed
 
 */
+
+#header {
+  background: url('../img/header.jpg');
+  background-size: cover;
+}
+
+.navbar-fixed {
+  position: fixed;
+}
+
+.navbar-fixed nav {
+  background: rgba(255, 255, 255, 0.5);
+}
