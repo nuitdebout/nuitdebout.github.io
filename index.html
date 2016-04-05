@@ -21,6 +21,14 @@
 	  
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <!--[if lt IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -145,11 +153,24 @@
 
             <br><br>
 
-            <div class="section grey lighten-3" id="newsfeed">
+            <div class="section lighten-3" id="newsfeed">
 
                 <h5 class="center">News feed</h5>
+                
+                <div class="row">
+                  <div class="col s6">
+                    <a class="twitter-timeline" href="https://twitter.com/nuitdebout" data-widget-id="717331946049835009">
+                      Tweets de @nuitdebout
+                    </a>
+                    <script>
+                      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    </script>
+                  </div>
+                  <div class="col s6">
+                    <div class="fb-page" data-width="500" data-href="https://www.facebook.com/nuitdebout" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/nuitdebout"><a href="https://www.facebook.com/nuitdebout">Nuit Debout</a></blockquote></div></div>
+                  </div>
+                </div>
 
-                <p class="light">TODO: Twitter and Facebook plugin integration</p>
 
             </div>
         </div>
