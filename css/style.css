@@ -4,9 +4,32 @@ Custom CSS Style - if needed
 
 */
 
-#header {
-  background: url('../img/header.jpg');
-  background-size: cover;
+html, body {
+  height: 100%;
+}
+
+.nd_brand {
+  text-transform: uppercase;
+  font-family: 'Skranji', cursive;
+}
+
+.nd_header {
+  height: 100%;
+}
+
+.nd_header__brand {
+  font-size: 134px;
+  text-shadow: 0px 1px 6px rgba(0, 0, 10, 0.4);
+}
+
+.nd_header__quote {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Skranji', cursive;
+
 }
 
 .navbar-fixed {
@@ -14,5 +37,5 @@ Custom CSS Style - if needed
 }
 
 .navbar-fixed nav {
-  background: rgba(255, 255, 255, 0.5);
+  // background: rgba(255, 255, 255, 0.5);
 }
