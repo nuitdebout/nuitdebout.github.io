@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_fb_light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1_NuitDebout_Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_NuitDebout_Home_Desktop-HD" transform="translate(-533.000000, -1540.000000)" fill="#FFFFFF">
+            <g id="3.-Actus" transform="translate(247.000000, 1432.000000)">
+                <g id="card" transform="translate(0.000000, 84.000000)">
+                    <g id="Badge" transform="translate(274.000000, 16.000000)">
+                        <g id="ic_fb_light" transform="translate(12.000000, 8.000000)">
+                            <path d="M7.796875,5.55075 L5.0136875,5.55075 L5.0136875,3.5195 C5.0136875,2.8964375 5.6581875,2.7519375 5.959,2.7519375 L7.756875,2.7519375 L7.756875,0.01075 L5.6963125,0 C2.8848125,0 2.2431875,2.0439375 2.2431875,3.3545 L2.2431875,5.5508125 L0.203125,5.5508125 L0.203125,8.375 L2.2431875,8.375 L2.2431875,16 L5.0136875,16 L5.0136875,8.375 L7.3671875,8.375 L7.796875,5.55075 Z" id="Fill-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

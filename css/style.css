@@ -8,29 +8,24 @@ html, body {
   height: 100%;
 }
 
-.nd_brand {
-  text-transform: uppercase;
-  font-family: 'Skranji', cursive;
+h2 {
+  margin: 1.78rem 0 2rem 0;
 }
 
 .nd_header {
   height: 100%;
 }
 
+.nd_header .btn-large {
+  margin-top: 20px;
+}
+
 .nd_header__brand {
-  font-size: 90px;
-  text-shadow: 0px 1px 6px rgba(0, 0, 10, 0.4);
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .nd_header__quote {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   text-align: center;
-  text-size: 20px;
-  font-family: 'Skranji', cursive;
-
 }
 
 .navbar-fixed {
@@ -38,5 +33,86 @@ html, body {
 }
 
 .navbar-fixed nav {
-  // background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.logo {
+  margin-left: 32px;
+  vertical-align: middle;
+}
+
+nav ul li {
+  background: none;
+  font-weight: medium;
+}
+
+nav ul li a {
+  color: #bdbdbd;
+  text-transform: uppercase;
+  background: none;
+}
+
+nav ul li:hover a, nav ul li:active a, nav ul li:focus a, nav ul li.active a {
+  color: #424242;
+  background: none;
+}
+
+nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
+  background: none;
+}
+
+.social-networks {
+  text-align: right;
+  line-height: 64px;
+}
+
+.social-networks img {
+  width: 24px;
+  height: 24px;
+  margin-right: 32px;
+  vertical-align: middle;
+}
+
+/*
+.social-icons.facebook:hover img{
+  background-color: #3B5998;
+}
+
+.social-icons.twitter:hover img{
+  background-color: #55ACEE;
+}
+
+.social-icons.periscope:hover img{
+  background-color: #47ADCA;
+}
+*/
+
+.hero-gradient {
+  /*background-image: linear-gradient(-180deg, rgba(0,60,250,0.50) 0%, rgba(255,255,255,0.00) 100%);*/
+}
+
+.hero-blur {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.border-text {
+  border-left: #00BCD4 4px solid;
+    padding-left: 32px;
+}
+
+.section {
+  padding-top: 40px;
+}
+
+p {
+  margin-bottom: 32px;
+}
+
+.icon-text {
+
+}
+
+.toolbar {
+  position: fixed;
 }

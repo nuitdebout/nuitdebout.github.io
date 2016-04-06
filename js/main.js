@@ -1,14 +1,13 @@
 (function($){
-    $(function(){
-        $('.button-collapse').sideNav();
-    });
-    $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-})(jQuery);
+    
+    // collapse
+    $('.button-collapse').sideNav();
 
+    // parallax
+    $('.parallax').parallax();
+      
 
-(function($) {
+    // quote rotation
     var sentences = [
         "Nous ne rentrerons pas chez nous ce soir",
         "Ni loi, ni travail",
@@ -29,5 +28,36 @@
         if (counter === sentences.length) {
             counter = 0;
         }
-    }, 10000);
+    }, 10000); 
+
+
+    // date calculation
+    // To do
+
+
+    // bambuser
+    $.ajax({
+      url: 'http://localhost:3000/api/bambuser',
+      success: function (resp, status, jqxhr) {
+
+        resp = JSON.parse(resp);
+
+        if (resp && resp.result)
+        {
+          
+        $('<iframe />');  // Create an iframe element
+        $('<iframe />', {
+            src: 'https://embed.bambuser.com/broadcast/' + resp.result[0].vid,
+            width: '100%',
+            height: '260px',
+            frameborder: 'none'
+        }).appendTo('#bambuser');
+        }
+
+
+
+      }
+    })
+
+
 })(jQuery);
