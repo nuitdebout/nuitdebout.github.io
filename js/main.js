@@ -28,12 +28,13 @@
 
     // quote rotation
     rotate([
+        "Nos rêves ne rentrent pas dans vos urnes",
         "Nous ne rentrerons pas chez nous ce soir",
-        "Ni loi, ni travail",
-        "Un joyeux bordel est possible",
         "Le jour : à bout, la nuit : debout",
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
-        "Nos rêves ne rentrent pas dans vos urnes"
+        "Ni loi, ni travail",
+        "Un joyeux bordel est possible",
+        "Ne plus perdre sa vie à la gagner"
     ], $('.nd_header__quote small'))
 
     // bambuser
@@ -73,7 +74,6 @@
 
 
         $('#news .card').each(function (index, value) {
-
           $(value).parents('a').attr('href', filteredPost[index].link)
           $(value).find('.card-content p').html(filteredPost[index].message || filteredPost[index].caption)
           .succinct({
