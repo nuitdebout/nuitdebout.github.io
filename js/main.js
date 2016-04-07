@@ -73,8 +73,15 @@
 
         $('#news .card').each(function (index, value) {
           
-          $(value).find('.card-content').text(filteredPost[index].message || filteredPost[index].caption);
+          $(value).parents('a').attr('href', filteredPost[index].link)
+          $(value).find('.card-content p').html(filteredPost[index].message || filteredPost[index].caption)
+          .succinct({
+            size: 120,
+            ignore: false
+          });
+
           $(value).find('.card-image').html('<img src="'+filteredPost[index].full_picture+'"/>');
+
 
         });
 
