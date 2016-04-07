@@ -116,3 +116,7 @@ p {
 .toolbar {
   position: fixed;
 }
+
+.snapwidget-widget {
+  pointer-events: none;
+}

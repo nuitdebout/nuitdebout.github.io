@@ -44,14 +44,14 @@
 
         if (resp && resp.result)
         {
-          
+
         $('<iframe />');  // Create an iframe element
         $('<iframe />', {
             src: 'https://embed.bambuser.com/broadcast/' + resp.result[0].vid,
             width: '100%',
             height: '260px',
             frameborder: 'none'
-        }).appendTo('#bambuser');
+        }).appendTo('#livestream');
         }
 
 
