@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_calendar_light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1_NuitDebout_Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_NuitDebout_Home_Desktop-HD" transform="translate(-93.000000, -2171.000000)" fill="#FFFFFF">
+            <g id="4.Compteur" transform="translate(-1.000000, 2149.000000)">
+                <g id="Jours" transform="translate(3.000000, 22.000000)">
+                    <g id="ic_calendar_light" transform="translate(91.000000, 0.000000)">
+                        <path d="M14.665,1.5 L12.5,1.5 L12.5,0.5 C12.5,0.223857625 12.2761424,1.69088438e-17 12,0 C11.7238576,-1.69088438e-17 11.5,0.223857625 11.5,0.5 L11.5,1.5 L8.5,1.5 L8.5,0.5 C8.5,0.223857625 8.27614237,1.69088438e-17 8,0 C7.72385763,-1.69088438e-17 7.5,0.223857625 7.5,0.5 L7.5,1.5 L4.5,1.5 L4.5,0.5 C4.5,0.223857625 4.27614237,1.69088438e-17 4,0 C3.72385763,-1.69088438e-17 3.5,0.223857625 3.5,0.5 L3.5,1.5 L1.335,1.5 C0.597699859,1.5 9.02932258e-17,2.09769986 0,2.835 L0,14.665 C9.02932258e-17,15.4023001 0.597699859,16 1.335,16 L14.665,16 C15.4023001,16 16,15.4023001 16,14.665 L16,2.835 C16,2.09769986 15.4023001,1.5 14.665,1.5 L14.665,1.5 Z M15,14.665 C15,14.7538475 14.9647055,14.8390561 14.9018808,14.9018808 C14.8390561,14.9647055 14.7538475,15 14.665,15 L1.335,15 C1.24615248,15 1.16094392,14.9647055 1.09811923,14.9018808 C1.03529454,14.8390561 1,14.7538475 1,14.665 L1,2.835 C1,2.64998461 1.14998461,2.5 1.335,2.5 L3.5,2.5 L3.5,3.5 C3.5,3.77614237 3.72385763,4 4,4 C4.27614237,4 4.5,3.77614237 4.5,3.5 L4.5,2.5 L7.5,2.5 L7.5,3.5 C7.5,3.77614237 7.72385763,4 8,4 C8.27614237,4 8.5,3.77614237 8.5,3.5 L8.5,2.5 L11.5,2.5 L11.5,3.5 C11.5,3.77614237 11.7238576,4 12,4 C12.2761424,4 12.5,3.77614237 12.5,3.5 L12.5,2.5 L14.665,2.5 C14.7538475,2.5 14.8390561,2.53529454 14.9018808,2.59811923 C14.9647055,2.66094392 15,2.74615248 15,2.835 L15,14.665 L15,14.665 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" x="3.5" y="6" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="3.5" y="8.5" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="3.5" y="11" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="7" y="11" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="7" y="8.5" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="7" y="6" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="10.5" y="11" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="10.5" y="8.5" width="2" height="1.5"></rect>
+                        <rect id="Rectangle-path" x="10.5" y="6" width="2" height="1.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

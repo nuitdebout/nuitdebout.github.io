@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_instagram_light</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="1_NuitDebout_Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_NuitDebout_Home_Desktop-HD" transform="translate(-1330.000000, -2413.000000)" fill="#FFFFFF">
+            <g id="4.Compteur" transform="translate(-1.000000, 2393.000000)">
+                <g id="instagram" transform="translate(1237.000000, 20.000000)">
+                    <path d="M108.4,3.6 C108.4,3.84 108.24,4 108,4 L106.4,4 C106.16,4 106,3.84 106,3.6 L106,2 C106,1.76 106.16,1.6 106.4,1.6 L108,1.6 C108.24,1.6 108.4,1.76 108.4,2 L108.4,3.6 Z M96,14.4 C95.76,14.4 95.6,14.24 95.6,14 L95.6,7.2 L97.28,7.2 C97.2,7.44 97.2,7.76 97.2,8 C97.2,10.64 99.36,12.8 102,12.8 C104.64,12.8 106.8,10.64 106.8,8 C106.8,7.76 106.8,7.44 106.72,7.2 L108.4,7.2 L108.4,14 C108.4,14.24 108.24,14.4 108,14.4 L96,14.4 Z M102,4.8 C103.76,4.8 105.2,6.24 105.2,8 C105.2,9.76 103.76,11.2 102,11.2 C100.24,11.2 98.8,9.76 98.8,8 C98.8,6.24 100.24,4.8 102,4.8 L102,4.8 Z M108.4,0 L95.6,0 C94.72,0 94,0.72 94,1.6 L94,14.4 C94,15.28 94.72,16 95.6,16 L108.4,16 C109.28,16 110,15.28 110,14.4 L110,1.6 C110,0.72 109.28,0 108.4,0 L108.4,0 Z" id="ic_instagram_light"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
