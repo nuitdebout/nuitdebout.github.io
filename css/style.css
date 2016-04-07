@@ -7,9 +7,9 @@ Custom CSS Style - if needed
 html, body {
   height: 100%;
 }
-
-h2 {
-  margin: 1.78rem 0 2rem 0;
+.nd_brand {
+  font-family: Oswald, "sans-serif";
+  text-transform: uppercase;
 }
 
 .nd_header {
@@ -22,11 +22,19 @@ h2 {
 
 .nd_header__brand {
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+  font-size: 98px;
 }
 
 .nd_header__quote {
+  font-family: Oswald, "sans-serif";
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+
+
 
 .navbar-fixed {
   position: fixed;
@@ -36,7 +44,7 @@ h2 {
   background: rgba(255, 255, 255, 0.95);
 }
 
-.logo {
+.navbar__logo {
   margin-left: 32px;
   vertical-align: middle;
 }
@@ -91,10 +99,10 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   /*background-image: linear-gradient(-180deg, rgba(0,60,250,0.50) 0%, rgba(255,255,255,0.00) 100%);*/
 }
 
-.hero-blur {
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
-}
+// .hero-blur {
+//   -webkit-filter: blur(2px);
+//   filter: blur(2px);
+// }
 
 .border-text {
   border-left: #00BCD4 4px solid;

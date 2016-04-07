@@ -1,23 +1,25 @@
 (function($){
-    
+
     // collapse
     $('.button-collapse').sideNav();
 
     // parallax
     $('.parallax').parallax();
-      
+
 
     // quote rotation
     var sentences = [
-        // "Nous ne rentrerons pas chez nous ce soir",
-        // "Ni loi, ni travail",
-        // "Un joyeux bordel est possible",
-        // "Le jour : à bout ; la nuit : debout",
-        // "Nos rêves ne rentrent pas dans vos urnes",
+        "Nous ne rentrerons pas chez nous ce soir",
+        "Ni loi, ni travail",
+        "Un joyeux bordel est possible",
+        "Le jour : à bout; la nuit : debout",
+        "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
+        "Nos rêves ne rentrent pas dans vos urnes"
     ]
     var counter = 0;
     setInterval(function() {
         var container = $('.nd_header__quote');
+        container.children().fadeOut().remove();
         container
             .children()
             .fadeOut()
@@ -28,7 +30,7 @@
         if (counter === sentences.length) {
             counter = 0;
         }
-    }, 10000); 
+    }, 10000);
 
 
     // date calculation
@@ -65,14 +67,14 @@
       url: 'http://localhost:3000/api/facebook',
       success: function (resp, status, jqxhr) {
 
-        var filteredPost = _.reject(resp.data, function (val){ 
-          return !val.message && !val.caption; 
+        var filteredPost = _.reject(resp.data, function (val){
+          return !val.message && !val.caption;
         });
 
-        
+
 
         $('#news .card').each(function (index, value) {
-          
+
           $(value).parents('a').attr('href', filteredPost[index].link)
           $(value).find('.card-content p').html(filteredPost[index].message || filteredPost[index].caption)
           .succinct({
