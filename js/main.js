@@ -29,12 +29,14 @@
     // quote rotation
     rotate([
         "Nos rêves ne rentrent pas dans vos urnes",
-        "Nous ne rentrerons pas chez nous ce soir",
+        "Nous ne rentrerons pas chez nous",
         "Le jour : à bout, la nuit : debout",
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Ni loi, ni travail",
-        "Un joyeux bordel est possible",
-        "Ne plus perdre sa vie à la gagner"
+        "Ne plus perdre sa vie à la gagner",
+        "C'est un grand printemps qui se lève",
+        "Je reviendrai et serai des millions",
+        "Un joyeux bordel est possible"
     ], $('.nd_header__quote small'))
 
     // bambuser

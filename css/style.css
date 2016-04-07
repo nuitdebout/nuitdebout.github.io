@@ -38,14 +38,22 @@ html, body {
 .nd_header__quote {
   font-family: Oswald, "sans-serif";
   text-align: center;
-  // position: absolute;
-  // bottom: 0;
-  // left: 0;
-  // right: 0;
+}
+.nd_header__radio_link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0.8;
+  padding: 10px;
+  transition: opacity 0.4s;
+}
+.nd_header__radio_link:hover {
+  opacity: 1;
 }
 
-
-
+.nd_calendar dt {
+  font-weight: bold;
+}
 .navbar-fixed {
   position: fixed;
 }
