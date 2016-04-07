@@ -12,7 +12,7 @@
         "Nous ne rentrerons pas chez nous ce soir",
         "Ni loi, ni travail",
         "Un joyeux bordel est possible",
-        "Le jour : à bout; la nuit : debout",
+        "Le jour : à bout, la nuit : debout",
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Nos rêves ne rentrent pas dans vos urnes"
     ]
