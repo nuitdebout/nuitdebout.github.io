@@ -98,7 +98,7 @@
       success: function (resp, status, jqxhr) {
         var tweets = [];
         _.each(resp, function (element, index, list) {
-          tweets.push(element.text)
+          tweets.push('<a href="https://twitter.com/nuitdebout/status/'+element.id_str+'" target="_blank">'+element.text+'</a>')
         })
         rotate(tweets, $('.nd_tweet_feed'));
       }

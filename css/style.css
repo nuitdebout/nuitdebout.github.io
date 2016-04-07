@@ -132,3 +132,7 @@ p {
 #news a {
   color: #424242;
 }
+
+#tweetstream a {
+  color: white;
+}
