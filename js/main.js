@@ -19,6 +19,10 @@
     setInterval(function() {
         var container = $('.nd_header__quote');
         container
+            .children()
+            .fadeOut()
+            .remove();
+        container
             .append($('<span>"' + sentences[counter] + '"</span>').fadeIn())
         counter++;
         if (counter === sentences.length) {
