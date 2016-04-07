@@ -8,8 +8,8 @@
 
 
     function rotate(sentences, element) {
-      var counter = 0;
       function print() {
+        var counter = Math.floor(Math.random()*sentences.length);
         element.children().fadeOut().remove();
         element
             .children()
@@ -17,10 +17,6 @@
             .remove();
         element
             .append($('<span>' + sentences[counter] + '</span>').fadeIn())
-        counter++;
-        if (counter === sentences.length) {
-            counter = 0;
-        }
       }
       print();
       setInterval(print, 10000);
@@ -35,8 +31,7 @@
         "Ni loi, ni travail",
         "Ne plus perdre sa vie à la gagner",
         "C'est un grand printemps qui se lève",
-        "Je reviendrai et serai des millions",
-        "Un joyeux bordel est possible"
+        "Je reviendrai et serai des millions"
     ], $('.nd_header__quote small'))
 
     // bambuser
