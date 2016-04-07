@@ -120,3 +120,7 @@ p {
 .snapwidget-widget {
   pointer-events: none;
 }
+
+#news a {
+  color: #424242;
+}
