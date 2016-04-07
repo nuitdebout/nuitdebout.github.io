@@ -7,35 +7,34 @@
     $('.parallax').parallax();
 
 
+    function rotate(sentences, element) {
+      var counter = 0;
+      function print() {
+        element.children().fadeOut().remove();
+        element
+            .children()
+            .fadeOut()
+            .remove();
+        element
+            .append($('<span>' + sentences[counter] + '</span>').fadeIn())
+        counter++;
+        if (counter === sentences.length) {
+            counter = 0;
+        }
+      }
+      print();
+      setInterval(print, 10000);
+    }
+
     // quote rotation
-    var sentences = [
+    rotate([
         "Nous ne rentrerons pas chez nous ce soir",
         "Ni loi, ni travail",
         "Un joyeux bordel est possible",
         "Le jour : à bout, la nuit : debout",
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Nos rêves ne rentrent pas dans vos urnes"
-    ]
-    var counter = 0;
-    setInterval(function() {
-        var container = $('.nd_header__quote');
-        container.children().fadeOut().remove();
-        container
-            .children()
-            .fadeOut()
-            .remove();
-        container
-            .append($('<span>"' + sentences[counter] + '"</span>').fadeIn())
-        counter++;
-        if (counter === sentences.length) {
-            counter = 0;
-        }
-    }, 10000);
-
-
-    // date calculation
-    // To do
-
+    ], $('.nd_header__quote small'))
 
     // bambuser
     $.ajax({
@@ -91,13 +90,17 @@
     });
 
 
+    // tweet rotation
     // get twitter feed
+
     $.ajax({
       url: 'http://localhost:3000/api/twitter',
       success: function (resp, status, jqxhr) {
+        var tweets = [];
         _.each(resp, function (element, index, list) {
-          sentences.push(element.text)
+          tweets.push(element.text)
         })
+        rotate(tweets, $('.nd_tweet_feed'));
       }
     });
 
