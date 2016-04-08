@@ -27,7 +27,7 @@
         "Nos rêves ne rentrent pas dans vos urnes",
         "Nous ne rentrerons pas chez nous",
         "Le jour : à bout, la nuit : debout",
-        "Partout en Europe, levons-nous !"
+        "Partout en Europe, levons-nous !",
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Ni loi, ni travail",
         "Ne plus perdre sa vie à la gagner",
@@ -97,7 +97,7 @@
 
         var tweets = [];
         _.each(resp, function (element, index, list) {
-          
+
           tweets.push('<a href="https://twitter.com/nuitdebout/status/'+element.id_str+'" target="_blank">'+element.text+'</a>')
         })
         rotate(tweets, $('.nd_tweet_feed'));
