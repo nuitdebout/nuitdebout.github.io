@@ -2,7 +2,7 @@
   "name": "nuitdebout.github.io",
   "version": "1.0.0",
   "description": "Public site of Nuit Debout mouvement",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/nuitdebout/nuitdebout.github.io/issues"
   },
-  "homepage": "https://github.com/nuitdebout/nuitdebout.github.io#readme"
+  "homepage": "https://github.com/nuitdebout/nuitdebout.github.io#readme",
+  "dependencies": {
+    "compression": "^1.6.1",
+    "env2": "^2.0.7",
+    "express": "~4.0.0",
+    "request": "^2.70.0",
+    "twitter": "~1.2.5"
+  }
 }
