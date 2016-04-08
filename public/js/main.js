@@ -27,6 +27,7 @@
         "Nos rêves ne rentrent pas dans vos urnes",
         "Nous ne rentrerons pas chez nous",
         "Le jour : à bout, la nuit : debout",
+        "Partout en Europe, levons-nous !"
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Ni loi, ni travail",
         "Ne plus perdre sa vie à la gagner",
