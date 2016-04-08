@@ -54,6 +54,12 @@ html, body {
 .nd_calendar dt {
   font-weight: bold;
 }
+
+.nd_tweetstream__img {
+  padding: 6px;
+  height: 50px;
+  width: 50px;
+}
 .navbar-fixed {
   position: fixed;
 }
@@ -153,4 +159,8 @@ p {
 
 #tweetstream a {
   color: white;
+}
+
+.reverse {
+  transform: rotateY(180deg);
 }
