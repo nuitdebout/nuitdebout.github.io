@@ -36,7 +36,7 @@
 
     // bambuser
     $.ajax({
-      url: 'http://localhost:3000/api/bambuser',
+      url: 'api/bambuser',
       success: function (resp, status, jqxhr) {
 
         resp = JSON.parse(resp);
@@ -61,7 +61,7 @@
 
     // get facebook feed
     $.ajax({
-      url: 'http://localhost:3000/api/facebook',
+      url: 'api/facebook',
       success: function (resp, status, jqxhr) {
 
         var filteredPost = _.reject(resp.data, function (val){
@@ -91,10 +91,12 @@
     // get twitter feed
 
     $.ajax({
-      url: 'http://localhost:3000/api/twitter',
+      url: 'api/twitter',
       success: function (resp, status, jqxhr) {
+
         var tweets = [];
         _.each(resp, function (element, index, list) {
+          
           tweets.push('<a href="https://twitter.com/nuitdebout/status/'+element.id_str+'" target="_blank">'+element.text+'</a>')
         })
         rotate(tweets, $('.nd_tweet_feed'));
