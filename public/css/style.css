@@ -107,6 +107,9 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   vertical-align: middle;
 }
 
+#calendar dd {
+  margin-left: 0;
+}
 /*
 .social-icons.facebook:hover img{
   background-color: #3B5998;
