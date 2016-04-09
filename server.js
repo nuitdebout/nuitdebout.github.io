@@ -113,4 +113,5 @@ app.use('/api', router);
 
 // START THE SERVER
 // =============================================================================
-app.listen(port);
+var server = app.listen(port);
+server.timeout = 5000;
