@@ -107,8 +107,18 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   vertical-align: middle;
 }
 
+#calendar dt {
+  margin-top: 5px;
+}
 #calendar dd {
   margin-left: 0;
+}
+#calendar ul {
+  margin: 0;
+}
+#calendar li {
+  list-style-type: initial;
+  margin-left: 20px;
 }
 /*
 .social-icons.facebook:hover img{
@@ -140,14 +150,6 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
 
 .section {
   padding-top: 40px;
-}
-
-p {
-  margin-bottom: 32px;
-}
-
-.icon-text {
-
 }
 
 .toolbar {
