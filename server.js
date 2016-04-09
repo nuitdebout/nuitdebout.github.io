@@ -97,7 +97,6 @@ router.get('/twitter', function (req, res) {
    
   var params = {screen_name: 'nuitdebout'};
   client.get('statuses/user_timeline', params, function (error, tweets, response){
-    console.log(tweets, error)
     if (!error) {
       res.json(tweets);
     }
@@ -115,4 +114,3 @@ app.use('/api', router);
 // START THE SERVER
 // =============================================================================
 app.listen(port);
-console.log('Magic happens on port ' + port);
