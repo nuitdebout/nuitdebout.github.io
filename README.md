@@ -4,7 +4,7 @@ Ce repository contient le code de la page principale de www.nuitdebout.fr.
 
 # Documentation
 
-Retrouvez-nous sur https://chat.indie.host/channel/nuitdebout
+Retrouvez-nous sur https://chat.nuitdebout.fr/channel/general
 
 Roadmap : https://trello.com/b/uVcD395N/site-nuitdebout
 
