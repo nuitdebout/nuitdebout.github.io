@@ -1,5 +1,4 @@
 (function($){
-
     // collapse
     $('.button-collapse').sideNav();
 
@@ -32,54 +31,45 @@
         "Ne plus perdre sa vie à la gagner",
         "C'est un grand printemps qui se lève",
         "Je reviendrai et serai des millions"
-    ], $('.nd_header__quote small'))
+    ], $('.nd_header__quote small'));
 
     // bambuser
     $.ajax({
-      url: 'api/bambuser',
+      url: 'http://api.nuitdebout.fr/api/bambuser',
       success: function (resp, status, jqxhr) {
-
         resp = JSON.parse(resp);
 
-        if (resp && resp.result)
-        {
-
-        $('<iframe />');  // Create an iframe element
-        $('<iframe />', {
+        if (resp && resp.result) {
+          $('<iframe />');  // Create an iframe element
+          $('<iframe />', {
             src: 'https://embed.bambuser.com/broadcast/' + resp.result[0].vid,
             width: '100%',
             height: '260px',
             frameborder: 'none'
-        }).appendTo('#livestream');
-        }
-
-
-
+          }).appendTo('#livestream');
+          }
       }
     });
 
-
     // get facebook feed
     $.ajax({
-      url: 'api/facebook',
+      url: 'http://api.nuitdebout.fr/api/facebook',
       success: function (resp, status, jqxhr) {
-
-        var filteredPost = _.reject(resp.data, function (val){
+        var filteredPost = _.reject(resp.data, function (val) {
           return !val.message && !val.caption;
         });
 
 
 
         $('#news .card').each(function (index, value) {
-          $(value).parents('a').attr('href', filteredPost[index].link)
+          $(value).parents('a').attr('href', filteredPost[index].link);
           $(value).find('.card-content p').html(filteredPost[index].message || filteredPost[index].caption)
           .succinct({
             size: 120,
             ignore: false
           });
 
-          $(value).find('.card-image').html('<img src="'+filteredPost[index].full_picture+'"/>');
-
+          $(value).find('.card-image').html('<img src="' + filteredPost[index].full_picture + '"/>');
 
         });
 
@@ -91,7 +81,7 @@
     // get twitter feed
 
     $.ajax({
-      url: 'api/twitter',
+      url: 'http://api.nuitdebout.fr/api/twitter',
       success: function (resp, status, jqxhr) {
 
         var tweets = [];

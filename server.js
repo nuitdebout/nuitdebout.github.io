@@ -1,10 +1,11 @@
 require('env2')('config.env');
-var request = require('request');
-var express    = require('express');        // call express
-var compression = require('compression');
-var Twitter = require('twitter');
+var request = require('request'),
+express = require('express'),
+compression = require('compression'),
+Twitter = require('twitter'),
+cors = require('cors');
 
-var app        = express();                 // define our app using express
+var app = express();                 // define our app using express
 
 var port = process.env.PORT || 3000;        // set our port
 
@@ -17,15 +18,9 @@ var router = express.Router();              // get an instance of the express Ro
 //   return next();
 // });
 
-var oneDay = 86400000;
-
 app.use(compression());
 
-app.use(express.static(__dirname + '/public', { maxAge: oneDay }));
-
-
 router.get('/bambuser', function(req, res) {
-
   var options = {
     uri: 'http://api.bambuser.com/broadcast.json',
     qs: {
@@ -47,7 +42,7 @@ router.get('/bambuser', function(req, res) {
 
         request(options, function (error, response, body) {
           if (!error && response.statusCode == 200) {
-            
+
             res.json(body);
 
           }
@@ -58,14 +53,14 @@ router.get('/bambuser', function(req, res) {
       {
         res.json(body);
       }
-    
+
     }
   });
 });
 
 
 router.get('/facebook', function (req, res) {
- 
+
   var options = {
     uri: 'https://graph.facebook.com/1707017119576184/posts',
     qs: {
@@ -78,9 +73,9 @@ router.get('/facebook', function (req, res) {
     if (!error && response.statusCode == 200) {
 
       body = JSON.parse(body);
-      
+      res.setHeader('Content-Type', 'application/json');
       res.json(body);
-    
+
     }
   });
 
@@ -94,22 +89,25 @@ router.get('/twitter', function (req, res) {
     access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
   });
-   
+
   var params = {screen_name: 'nuitdebout'};
-  client.get('statuses/user_timeline', params, function (error, tweets, response){
+  client.get('statuses/user_timeline', params, function (error, tweets, response) {
     if (!error) {
       res.json(tweets);
     }
   });
-
 });
 
+// Enable CORS access
+var corsOptions = {
+  origin: process.env.CORS_ALLOWED_URL
+};
+
+app.use(cors(corsOptions));
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
 app.use('/api', router);
-
-
 
 // START THE SERVER
 // =============================================================================

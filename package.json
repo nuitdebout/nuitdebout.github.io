@@ -18,9 +18,14 @@
   "homepage": "https://github.com/nuitdebout/nuitdebout.github.io#readme",
   "dependencies": {
     "compression": "^1.6.1",
+    "cors": "^2.7.1",
     "env2": "^2.0.7",
     "express": "~4.0.0",
     "request": "^2.70.0",
     "twitter": "~1.2.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
   }
 }
