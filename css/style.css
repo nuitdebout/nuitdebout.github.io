@@ -72,7 +72,7 @@ html, body {
 
 .navbar__logo {
   margin-left: 32px;
-  vertical-align: middle;
+  margin-top: 8px;
 }
 
 nav ul li {
