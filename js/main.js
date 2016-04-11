@@ -53,7 +53,7 @@
       url: 'http://api.nuitdebout.fr/api/facebook',
       success: function (resp, status, jqxhr) {
         var filteredPost = _.reject(resp.data, function (val) {
-          return !val.message && !val.caption && !val.full_picture && !val.link;
+          return !val.message && !val.caption || !val.full_picture || !val.link;
         });
 
 
