@@ -70,7 +70,13 @@ html, body {
   background: rgba(255, 255, 255, 0.95);
 }
 
+.brand-logo,
 .navbar__logo {
+  height:48px;
+  width:40px;
+}
+
+.brand-logo {
   margin-left: 32px;
   margin-top: 8px;
 }
