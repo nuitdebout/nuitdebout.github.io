@@ -2,10 +2,6 @@
     // collapse
     $('.button-collapse').sideNav();
 
-    // parallax
-    $('.parallax').parallax();
-
-
     function rotate(sentences, element) {
       function print() {
         var counter = Math.floor(Math.random()*sentences.length);

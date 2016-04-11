@@ -171,3 +171,7 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
 .reverse {
   transform: rotateY(180deg);
 }
+
+.parallax img {
+  display: block;
+}
