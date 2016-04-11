@@ -15,7 +15,8 @@ html, body {
 }
 
 .nd_header {
-  height: 100%;
+  min-height: 100%;
+  position: relative;
 }
 
 .nd_header .btn-large {
@@ -24,20 +25,14 @@ html, body {
 
 .nd_header__brand {
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+  filter: drop-shadow( 0px 3px 4px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow( 0px 3px 4px rgba(0,0,0,0.5));
   font-size: 98px;
-}
-.nd_header__pattern {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('../img/svg/motif-fond.svg');
-  background-repeat: repeat;
-  background-size: 700px;
+  max-height: 400px;
 }
 
 .nd_header__quote {
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
   font-family: Oswald, "sans-serif";
   text-align: center;
 }
@@ -46,9 +41,25 @@ html, body {
   bottom: 0;
   right: 0;
   opacity: 0.8;
-  padding: 10px;
+  height: 75px;
+  width: 75px;
+  padding-bottom: 5px;
   transition: opacity 0.4s;
 }
+.nd_header__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/headertest.jpg')
+}
+.parallax-container {
+  height: 100%;
+}
+
 .nd_header__radio_link:hover {
   opacity: 1;
 }
@@ -77,8 +88,9 @@ html, body {
 }
 
 .brand-logo {
-  margin-left: 32px;
   margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 nav ul li {

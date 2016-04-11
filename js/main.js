@@ -26,7 +26,8 @@
         "Ils pourront couper les fleurs, ils n'arrêteront pas le printemps",
         "Ne plus perdre sa vie à la gagner",
         "C'est un grand printemps qui se lève",
-        "Je reviendrai et serai des millions"
+        "Je reviendrai et serai des millions",
+        "Que nul n'entre ici s'il n'est révolté"
     ], $('.nd_header__quote small'));
 
     // bambuser
