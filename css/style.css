@@ -138,16 +138,21 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   margin-left: 20px;
 }
 
-.social-icons.facebook>img:hover{
-  background-color: #3B5998;
+.social-icons.facebook,.social-icons.twitter,.social-icons.periscope{
+  -webkit-transition: opacity 0.2s; 
+    transition: opacity 0.2s;
+}
+.social-icons.facebook:hover{
+  opacity:0.5;
+
+  }
+
+.social-icons.twitter:hover{
+  opacity:0.5;
 }
 
-.social-icons.twitter>img:hover{
-  background-color: #55ACEE;
-}
-
-.social-icons.periscope>img:hover{
-  background-color: #47ADCA;
+.social-icons.periscope:hover{
+  opacity:0.5;
 }
 
 
