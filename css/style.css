@@ -137,19 +137,19 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   list-style-type: initial;
   margin-left: 20px;
 }
-/*
-.social-icons.facebook:hover img{
+
+.social-icons.facebook>img:hover{
   background-color: #3B5998;
 }
 
-.social-icons.twitter:hover img{
+.social-icons.twitter>img:hover{
   background-color: #55ACEE;
 }
 
-.social-icons.periscope:hover img{
+.social-icons.periscope>img:hover{
   background-color: #47ADCA;
 }
-*/
+
 
 .hero-gradient {
   /*background-image: linear-gradient(-180deg, rgba(0,60,250,0.50) 0%, rgba(255,255,255,0.00) 100%);*/
