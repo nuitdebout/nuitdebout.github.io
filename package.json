@@ -1,0 +1,27 @@
+{
+  "name": "nuitdebout.github.io",
+  "version": "0.0.1",
+  "description": "Ce repository contient le HTML de la page principale de www.nuitdebout.fr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuitdebout/nuitdebout.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuitdebout/nuitdebout.github.io/issues"
+  },
+  "homepage": "https://github.com/nuitdebout/nuitdebout.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-serve": "^1.2.0",
+    "handlebars": "^4.0.5",
+    "nodemw": "^0.9.0",
+    "underscore": "^1.8.3"
+  }
+}
