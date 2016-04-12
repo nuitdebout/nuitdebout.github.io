@@ -6,12 +6,11 @@ Custom CSS Style - if needed
 
 html, body {
   height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 .nd_brand {
   font-family: Oswald, "sans-serif";
   text-transform: uppercase;
+  word-wrap: break-word;
 }
 
 .nd_header {
