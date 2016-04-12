@@ -104,4 +104,18 @@
         });
     });
 
+  // Code from http://corpsmoderne.net/
+  var nuitdebout_getDate = function(forDate) {
+    var startDate = new Date("march 31 2016");
+    var day = 1000*60*60*24;
+    var today = forDate ? (new Date(forDate)).getTime() : Date.now();
+    var delta = today-startDate;
+    var delta_days = delta/day;
+    return Math.floor(delta_days) + 31;
+  };
+
+  //TODO: translation
+  var days = ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
+  $('#title_date').text(days[new Date().getDay()] + ' ' + nuitdebout_getDate() + ' Mars ');
+
 })(jQuery);
