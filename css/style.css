@@ -198,3 +198,27 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
 .parallax img {
   display: block;
 }
+
+/* footer */
+footer.page-footer{
+  background: #37474F;
+
+}
+footer.page-footer, footer.page-footer a{
+    color:#fff;
+}
+footer.page-footer h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.social-networks--footer{
+  text-align:left;
+}
+.social-networks--footer img{
+   margin-right: 10px;
+}
+
+
+.page-footer .container{
+  padding-bottom:10px
+}
