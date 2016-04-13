@@ -90,6 +90,34 @@
       }
     });
 
+    //Liste des villes du wiki
+    $.ajax({
+      url: 'http://api.nuitdebout.fr/api/wiki/cities',
+      success: function (resp, status, jqxhr) {
+        console.log(resp);
+        var tableau = '';
+        _.each(resp, function(element, index, list){
+          tableau += '<tr><td><a href="' + element.url + '">' + element.label + '</a></td></tr>';
+        });
+        $('#cities').html(tableau);
+      }
+    });
+
+    //Liste des CR du wiki
+    $.ajax({
+      url: 'http://api.nuitdebout.fr/api/wiki/last_crs',
+      success: function (resp, status, jqxhr) {
+        var tableau = '';
+        _.each(resp, function(element, index, list){
+          var date = new Date(element.timestamp);
+          console.log(date)
+          tableau += '<li class="collection-item">' + element.city + ' /  <a href="' + element.url + '">'  + element.label + '</a>'
+          tableau += "<br>" + date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear() + ' ' + date.getHours() + ':' + ('0'+date.getMinutes()).slice(-2) + '</li>'
+        });
+        $('#crs').append(tableau);
+      }
+    });
+
     // Smooth scroll when going to an anchor
     // this snippet was taken from http://www.paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
     $('a[href^="#"]').on('click',function (e) {
