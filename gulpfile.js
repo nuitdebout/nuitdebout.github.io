@@ -2,13 +2,17 @@ var gulp = require('gulp');
 var _ = require('underscore');
 var fs = require('fs');
 var serve = require('gulp-serve');
+var slug = require('slug');
+var Handlebars = require('handlebars');
+
+// Wiki Bot
+
 var bot = require('nodemw');
 var client = new bot({
   server: 'wiki.nuitdebout.fr',
-  path: '/api.php',
+  // path: 'api.php',
   debug: true
 });
-var Handlebars = require('handlebars');
 
 function getCities(callback)
 {
@@ -17,15 +21,52 @@ function getCities(callback)
     var matches = article.match(/\[\[([^\]]+)/g).forEach(function(city) {
       city = city.replace('[[', '');
       var pieces = city.split('|')
-        , uri = pieces[0]
+        , wiki_uri = pieces[0]
         , label = pieces[1];
       cities.push({
-        uri: uri,
-        url: 'https://wiki.nuitdebout.fr/index.php?title='+uri,
-        label: label
+        slug: slug(label, {lower: true}),
+        uri: '/ville/' + slug(label, {lower: true}),
+        wiki_uri: wiki_uri,
+        wiki_url: 'https://wiki.nuitdebout.fr/wiki/'+wiki_uri,
+        links: [],
+        label: label,
+        name: label
       });
     });
-    callback.apply(undefined, [cities]);
+
+    var agendaRegex = /== Calendrier ==([^=]+)/g;
+    var linkRegex = /(https?:\/\/[^ }=\r\n]+)/g;
+
+    function getCityDetails(city, cb) {
+      client.getArticle(city.wiki_uri, function(err, cityArticle) {
+        var matches;
+        if (matches = linkRegex.exec(cityArticle)) {
+          matches.forEach(function(link) {
+            city.links.push(link);
+          });
+        }
+        city.links = _.uniq(city.links);
+        cb(city);
+      });
+    }
+
+    function eachAsync(arr, func, cb) {
+      var doneCounter = 0,
+        results = [];
+      arr.forEach(function (item) {
+        func(item, function (res) {
+          doneCounter += 1;
+          results.push(res);
+          if (doneCounter === arr.length) {
+            cb(results);
+          }
+        });
+      });
+    }
+
+    eachAsync(cities, getCityDetails, function(results) {
+      callback.apply(undefined, [results]);
+    });
   });
 }
 
@@ -48,7 +89,7 @@ function getLastReports(callback)
         }
         if (city && label) {
           titles.push({
-            url: 'https://wiki.nuitdebout.fr/index.php?title='+change.title,
+            url: 'https://wiki.nuitdebout.fr/wiki/'+change.title,
             city: city,
             label: label
           });
@@ -62,14 +103,14 @@ function getLastReports(callback)
 /**
  * Retrieves the list of cities from the wiki and creates a JSON file.
  */
-gulp.task('import:cities', function() {
+gulp.task('import:cities', function(cb) {
 
   getCities(function(cities) {
-    // console.log(cities);
     fs.writeFile('data/cities.json', JSON.stringify(cities, null, 2), function(err) {
       if (err) {
         return console.log(err);
       }
+      cb();
     });
   });
 
@@ -94,7 +135,12 @@ gulp.task('import', ['import:cities', 'import:reports']);
  */
 gulp.task('website', function() {
 
-  var index = Handlebars.compile(fs.readFileSync('templates/index.hbs').toString());
+  Handlebars.registerPartial('header', fs.readFileSync('templates/partials/header.hbs').toString());
+  Handlebars.registerPartial('footer', fs.readFileSync('templates/partials/footer.hbs').toString());
+
+  var tplIndex = Handlebars.compile(fs.readFileSync('templates/index.hbs').toString());
+  var tplCity = Handlebars.compile(fs.readFileSync('templates/city.hbs').toString());
+
   var cities = JSON.parse(fs.readFileSync('data/cities.json').toString());
   var reports = JSON.parse(fs.readFileSync('data/reports.json').toString());
 
@@ -111,20 +157,25 @@ gulp.task('website', function() {
   });
 
   var data = {
-    cities: citiesTwoPerLine,
+    citiesTwoPerLine: citiesTwoPerLine,
+    cities: cities,
     reports: reports
   };
 
-  fs.writeFile('index.html', index(data), function(err) {
-    if (err) {
-      return console.log(err);
+  fs.writeFileSync('index.html', tplIndex(data));
+
+  cities.forEach(function(city) {
+    var dir = './ville/' + slug(city.label, {lower: true});
+    var file = dir + '/index.html';
+    if (!fs.existsSync(dir)){
+      fs.mkdirSync(dir);
     }
-    console.log('Website generated !')
-  });
+    fs.writeFileSync(file, tplCity({city: city}));
+  })
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['templates/*.hbs'], ['website'])
+  gulp.watch(['templates/*.hbs', 'templates/partials/*.hbs'], ['website'])
 });
 
 gulp.task('serve', ['watch'], serve('./'));

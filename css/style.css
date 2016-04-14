@@ -139,7 +139,7 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
 }
 
 .social-icons.facebook,.social-icons.twitter,.social-icons.periscope{
-  -webkit-transition: opacity 0.2s; 
+  -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
 }
 .social-icons.facebook:hover{
@@ -221,4 +221,8 @@ footer.page-footer h5{
 
 .page-footer .container{
   padding-bottom:10px
+}
+
+.cities-chips .chip {
+  margin-bottom: 20px;
 }

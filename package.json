@@ -22,6 +22,7 @@
     "gulp-serve": "^1.2.0",
     "handlebars": "^4.0.5",
     "nodemw": "^0.9.0",
+    "slug": "^0.9.1",
     "underscore": "^1.8.3"
   }
 }
