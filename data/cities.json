@@ -347,7 +347,12 @@
     "uri": "/ville/lyon",
     "wiki_uri": "Villes/Lyon",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lyon",
-    "links": [],
+    "links": [
+      "https://twitter.com/NuitDeboutLyon",
+      "https://www.facebook.com/groups/262391834093781/",
+      "https://chat.nuitdeboutlyon.fr/",
+      "https://forum.nuitdeboutlyon.fr/"
+    ],
     "label": "Lyon",
     "name": "Lyon"
   },
