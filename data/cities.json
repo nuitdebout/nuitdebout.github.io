@@ -87,7 +87,9 @@
     "wiki_uri": "Villes/Avignon",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Avignon",
     "links": [
-      "https://doleancesnuitdeboutavignon.wordpress.com"
+      "https://doleancesnuitdeboutavignon.wordpress.com",
+      "https://twitter.com/nuitdebout84",
+      "https://www.facebook.com/nuitdeboutavignon/"
     ],
     "label": "Avignon",
     "name": "Avignon"
@@ -118,7 +120,8 @@
     "wiki_uri": "Villes/Bourges",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bourges",
     "links": [
-      "https://twitter.com/NuitDebout18"
+      "https://twitter.com/NuitDebout18",
+      "https://www.facebook.com/nuitdeboutbourges"
     ],
     "label": "Bourges",
     "name": "Bourges"
@@ -147,7 +150,8 @@
     "wiki_uri": "Villes/Calais",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Calais",
     "links": [
-      "https://hebdo.framapad.org/p/Texte_explicatif_nuit_debout"
+      "https://hebdo.framapad.org/p/Texte_explicatif_nuit_debout",
+      "https://www.facebook.com/groups/1584402891870709/"
     ],
     "label": "Calais",
     "name": "Calais"
@@ -158,7 +162,8 @@
     "wiki_uri": "Villes/Chalon-sur-Saône",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Chalon-sur-Saône",
     "links": [
-      "http://pad.powi.fr/p/NuitDebout"
+      "http://pad.powi.fr/p/NuitDebout",
+      "http://ndchalon.onvautmieuxqueca.info/"
     ],
     "label": "Chalon-sur-Saône",
     "name": "Chalon-sur-Saône"
@@ -304,7 +309,9 @@
     "wiki_uri": "Villes/Lille",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lille",
     "links": [
-      "https://chat.nuitdebout.fr/channel/lille"
+      "https://chat.nuitdebout.fr/channel/lille",
+      "https://twitter.com/NuitDeboutLille",
+      "https://framacalc.org/Alternatives-Nord"
     ],
     "label": "Lille",
     "name": "Lille"
@@ -445,7 +452,9 @@
     "uri": "/ville/nimes",
     "wiki_uri": "Villes/Nimes",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Nimes",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/NimesDebout/"
+    ],
     "label": "Nimes",
     "name": "Nimes"
   },
@@ -477,7 +486,8 @@
     "wiki_uri": "Villes/Orléans‎",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Orléans‎",
     "links": [
-      "https://www.facebook.com/Nuit-Debout-Orléans-et-Loiret-964672846935435"
+      "https://www.facebook.com/Nuit-Debout-Orléans-et-Loiret-964672846935435",
+      "https://www.facebook.com/CafeDesEnfantsOrleans/info/?tab=page_info"
     ],
     "label": "Orléans",
     "name": "Orléans"
@@ -491,6 +501,17 @@
       "https://hebdo.framapad.org/p/ODJ_-_Jeudi_14",
       "https://twitter.com/nuitdeboutparis",
       "https://www.facebook.com/Commission-%C3%A9conomie-NuitDebout-Paris-1691642561117462/",
+      "https://www.facebook.com/commission.jury.citoyen.nuitdebout.paris/",
+      "http://gazettedebout.wordpress.com",
+      "https://www.facebook.com/NuitDebout/",
+      "https://twitter.com/nuitdeboutparis",
+      "https://www.facebook.com/NuitDeboutParisOff/",
+      "https://nuitdebout.tumblr.com/",
+      "https://storify.com/nuitdebout/",
+      "http://ateliersconstituants.org/",
+      "https://www.facebook.com/events/2228485394095161/",
+      "https://www.facebook.com/Nuit-Debout-%C3%89duc-975816055837008/?notif_t=page_fan&amp;notif_id=1460298902062289",
+      "https://twitter.com/NuitDeboutEduc",
       "https://www.facebook.com/commission.jury.citoyen.nuitdebout.paris/"
     ],
     "label": "Paris",
@@ -666,7 +687,18 @@
     "wiki_uri": "Villes/Toulouse",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Toulouse",
     "links": [
-      "https://www.facebook.com/NuitDeboutToulouse/"
+      "https://www.facebook.com/NuitDeboutToulouse/",
+      "http://utopies-concretes.org/#/fr",
+      "http://www.colibris-lemouvement.org/",
+      "http://lesincroyablescomestibles.fr/",
+      "http://terredeliens.org/",
+      "http://amapreseau-mp.org/",
+      "http://www.transitionfrance.fr/",
+      "http://lesforcesdumalt.forumactif.org/",
+      "http://nuitdebouttoulouse.fr/",
+      "https://fr.ulule.com/discover/",
+      "http://libreurope.blogspot.fr/",
+      "https://came2016.wordpress.com/"
     ],
     "label": "Toulouse",
     "name": "Toulouse"
