@@ -4,7 +4,7 @@ Ce repository contient le HTML de la page principale de www.nuitdebout.fr.
 
 # Documentation
 
-Retrouvez-nous sur https://chat.nuitdebout.fr/
+Retrouvez-nous sur https://chat.nuitdebout.fr/ sur le canal #nuitdebout.fr
 
 Roadmap : https://tableau.nuitdebout.fr/b/GcgxXW246HeRZBRpo/site-nuitdebout
 
