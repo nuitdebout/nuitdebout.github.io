@@ -4,6 +4,7 @@ var fs = require('fs');
 var serve = require('gulp-serve');
 var slug = require('slug');
 var Handlebars = require('handlebars');
+var Sitemap = require('sitemap');
 
 // Wiki Bot
 
@@ -143,6 +144,31 @@ gulp.task('import:reports', function() {
 });
 
 gulp.task('import', ['import:cities', 'import:reports']);
+
+gulp.task('sitemap', function() {
+
+  var cities = JSON.parse(fs.readFileSync('data/cities.json').toString());
+
+  var urls = [
+    {url: '/', changefreq: 'daily'}
+  ];
+
+  var citiesURLs = cities.map(function(city) {
+    return {
+      url: '/ville/' + city.slug,
+      changefreq: 'daily'
+    }
+  });
+
+  urls = urls.concat(citiesURLs);
+
+  var sitemap = Sitemap.createSitemap ({
+    hostname: 'http://www.nuitdebout.fr',
+    urls: urls
+  });
+
+  fs.writeFileSync('./sitemap.xml', sitemap.toString());
+});
 
 /**
  * Generates the index.html file using Handlebars.
