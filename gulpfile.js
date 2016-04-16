@@ -105,7 +105,21 @@ function getLastReports(callback)
  */
 gulp.task('import:cities', function(cb) {
 
-  getCities(function(cities) {
+  getCities(function(newCities) {
+
+    var currentCities = JSON.parse(fs.readFileSync('data/cities.json').toString());
+
+    // Merge links
+    var cities = newCities.map(function(newCity) {
+      var currentCity = _.find(currentCities, function(currentCity) {
+        return currentCity.slug === newCity.slug;
+      })
+      if (currentCity) {
+        newCity.links = _.uniq(currentCity.links.concat(newCity.links));
+      }
+      return newCity;
+    });
+
     fs.writeFile('data/cities.json', JSON.stringify(cities, null, 2), function(err) {
       if (err) {
         return console.log(err);
