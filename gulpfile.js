@@ -183,6 +183,7 @@ gulp.task('website', function() {
 
   var cities = JSON.parse(fs.readFileSync('data/cities.json').toString());
   var reports = JSON.parse(fs.readFileSync('data/reports.json').toString());
+  var websites = JSON.parse(fs.readFileSync('data/websites.json').toString());
 
   // Create an array of arrays of 2 cities
   var citiesTwoPerLine = [];
@@ -210,7 +211,18 @@ gulp.task('website', function() {
     if (!fs.existsSync(dir)){
       fs.mkdirSync(dir);
     }
-    fs.writeFileSync(file, tplCity({city: city}));
+
+    var hasOwnWebsite = websites.hasOwnProperty(city.slug)
+      , websiteURL = hasOwnWebsite ? websites[city.slug] : undefined;
+
+    city = _.extend(city, {
+      hasOwnWebsite: hasOwnWebsite,
+      websiteURL: websiteURL
+    });
+
+    fs.writeFileSync(file, tplCity({
+      city: city
+    }));
   })
 });
 

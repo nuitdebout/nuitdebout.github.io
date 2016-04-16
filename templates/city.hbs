@@ -27,4 +27,13 @@
       </div>
   </div>
 </div>
+
+{{#if city.hasOwnWebsite}}
+<script>
+(function() {
+  window.location.replace("{{city.websiteURL}}");
+})();
+</script>
+{{/if}}
+
 {{> footer }}
