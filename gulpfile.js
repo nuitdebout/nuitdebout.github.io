@@ -175,7 +175,8 @@ var callSlugs = {
   "el": slug("Διεθνές-Κάλεσμα-του-κινήματος-nuit-debout", {lower: true}),
   "en": "international-call-by-nuit-debout",
   "es": "llamada-internacional-de-nuit-debout",
-  "it": "appello-internazionale-di-nuit-debout"
+  "it": "appello-internazionale-di-nuit-debout",
+  "fr": "appel-international-de-nuit-debout"
 }
 
 /**
@@ -248,7 +249,12 @@ gulp.task('website:international', function() {
     }
     if (callSlugs.hasOwnProperty(language)) {
       var slug = callSlugs[language];
-      fs.writeFileSync('./'+language+'/'+slug+'.html', tplLanguage({}));
+      if (language === 'fr') {
+        fs.writeFileSync('./'+slug+'.html', tplLanguage({}));
+      } else {
+        fs.writeFileSync('./'+language+'/'+slug+'.html', tplLanguage({}));
+      }
+
     }
   });
 
