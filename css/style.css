@@ -101,6 +101,7 @@ nav ul li a {
   color: #bdbdbd;
   text-transform: uppercase;
   background: none;
+  transition: color .2s;
 }
 
 nav ul li:hover a, nav ul li:active a, nav ul li:focus a, nav ul li.active a {
@@ -138,20 +139,14 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   margin-left: 20px;
 }
 
-.social-icons.facebook,.social-icons.twitter,.social-icons.periscope{
+.social-icons.facebook,.social-icons.twitter,.social-icons.periscope,.social-icons.github{
   -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
 }
-.social-icons.facebook:hover{
-  opacity:0.5;
-
-  }
-
-.social-icons.twitter:hover{
-  opacity:0.5;
-}
-
-.social-icons.periscope:hover{
+.social-icons.facebook:hover,
+.social-icons.twitter:hover,
+.social-icons.periscope:hover,
+.social-icons.github:hover {
   opacity:0.5;
 }
 
