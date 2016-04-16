@@ -1,5 +1,16 @@
 [
   {
+    "slug": "agen",
+    "uri": "/ville/agen",
+    "wiki_uri": "Villes/Agen",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Agen",
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Agen-567441283425949/"
+    ],
+    "label": "Agen",
+    "name": "Agen"
+  },
+  {
     "slug": "aix-en-provence",
     "uri": "/ville/aix-en-provence",
     "wiki_uri": "Villes/Aix-en-Provence",
@@ -11,6 +22,17 @@
     "name": "Aix-en-Provence"
   },
   {
+    "slug": "albi",
+    "uri": "/ville/albi",
+    "wiki_uri": "Villes/Albi",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Albi",
+    "links": [
+      "https://www.facebook.com/NuitDeboutAlbi/"
+    ],
+    "label": "Albi",
+    "name": "Albi"
+  },
+  {
     "slug": "ales",
     "uri": "/ville/ales",
     "wiki_uri": "Villes/Alès",
@@ -20,15 +42,6 @@
     ],
     "label": "Alès",
     "name": "Alès"
-  },
-  {
-    "slug": "agen",
-    "uri": "/ville/agen",
-    "wiki_uri": "Villes/Agen",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Agen",
-    "links": [],
-    "label": "Agen",
-    "name": "Agen"
   },
   {
     "slug": "amiens",
@@ -47,10 +60,22 @@
     "wiki_uri": "Villes/Angers",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Angers",
     "links": [
-      "https://www.facebook.com/nuitdebout.angers/"
+      "https://www.facebook.com/nuitdebout.angers/",
+      "https://www.facebook.com/events/263037460705860/"
     ],
     "label": "Angers",
     "name": "Angers"
+  },
+  {
+    "slug": "aubervilliers",
+    "uri": "/ville/aubervilliers",
+    "wiki_uri": "Villes/Aubervilliers",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Aubervilliers",
+    "links": [
+      "https://www.facebook.com/Réseau-Albertivillarien-Contre-La-Loi-Travail-1157781487573506/"
+    ],
+    "label": "Aubervilliers",
+    "name": "Aubervilliers"
   },
   {
     "slug": "annecy",
@@ -64,15 +89,6 @@
     "name": "Annecy"
   },
   {
-    "slug": "aubervilliers",
-    "uri": "/ville/aubervilliers",
-    "wiki_uri": "Villes/Aubervilliers",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Aubervilliers",
-    "links": [],
-    "label": "Aubervilliers",
-    "name": "Aubervilliers"
-  },
-  {
     "slug": "auxerre",
     "uri": "/ville/auxerre",
     "wiki_uri": "Villes/Auxerre",
@@ -82,6 +98,17 @@
     "name": "Auxerre"
   },
   {
+    "slug": "bayonne",
+    "uri": "/ville/bayonne",
+    "wiki_uri": "Villes/Bayonne",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bayonne",
+    "links": [
+      "https://www.facebook.com/NuitDeboutPaysBasque/"
+    ],
+    "label": "Bayonne",
+    "name": "Bayonne"
+  },
+  {
     "slug": "avignon",
     "uri": "/ville/avignon",
     "wiki_uri": "Villes/Avignon",
@@ -89,10 +116,31 @@
     "links": [
       "https://doleancesnuitdeboutavignon.wordpress.com",
       "https://twitter.com/nuitdebout84",
-      "https://www.facebook.com/nuitdeboutavignon/"
+      "https://www.facebook.com/nuitdeboutavignon/",
+      "https://twitter.com/hashtag/internetdebout"
     ],
     "label": "Avignon",
     "name": "Avignon"
+  },
+  {
+    "slug": "bergerac",
+    "uri": "/ville/bergerac",
+    "wiki_uri": "Villes/Bergerac",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bergerac",
+    "links": [],
+    "label": "Bergerac",
+    "name": "Bergerac"
+  },
+  {
+    "slug": "blois",
+    "uri": "/ville/blois",
+    "wiki_uri": "Villes/Blois",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Blois",
+    "links": [
+      "https://www.facebook.com/nuitdeboutBlois/"
+    ],
+    "label": "Blois",
+    "name": "Blois"
   },
   {
     "slug": "bethune",
@@ -104,12 +152,31 @@
     "name": "Béthune"
   },
   {
+    "slug": "besancon",
+    "uri": "/ville/besancon",
+    "wiki_uri": "Villes/Besançon",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Besançon",
+    "links": [],
+    "label": "Besançon",
+    "name": "Besançon"
+  },
+  {
+    "slug": "boulogne-sur-mer",
+    "uri": "/ville/boulogne-sur-mer",
+    "wiki_uri": "Villes/Boulogne-sur-Mer",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Boulogne-sur-Mer",
+    "links": [],
+    "label": "Boulogne-sur-Mer",
+    "name": "Boulogne-sur-Mer"
+  },
+  {
     "slug": "bordeaux",
     "uri": "/ville/bordeaux",
     "wiki_uri": "Villes/Bordeaux",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bordeaux",
     "links": [
-      "https://www.facebook.com/NuitDeboutBordeaux/"
+      "https://www.facebook.com/NuitDeboutBordeaux/",
+      "https://wiki.nuitdebout.fr/index.php?title"
     ],
     "label": "Bordeaux",
     "name": "Bordeaux"
@@ -127,22 +194,24 @@
     "name": "Bourges"
   },
   {
+    "slug": "brissac",
+    "uri": "/ville/brissac",
+    "wiki_uri": "Villes/Brissac",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Brissac",
+    "links": [],
+    "label": "Brissac",
+    "name": "Brissac"
+  },
+  {
     "slug": "caen",
     "uri": "/ville/caen",
     "wiki_uri": "Villes/Caen",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Caen",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/caenNuitDebout/"
+    ],
     "label": "Caen",
     "name": "Caen"
-  },
-  {
-    "slug": "besancon",
-    "uri": "/ville/besancon",
-    "wiki_uri": "Villes/Besançon",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Besançon",
-    "links": [],
-    "label": "Besançon",
-    "name": "Besançon"
   },
   {
     "slug": "calais",
@@ -151,22 +220,11 @@
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Calais",
     "links": [
       "https://hebdo.framapad.org/p/Texte_explicatif_nuit_debout",
-      "https://www.facebook.com/groups/1584402891870709/"
+      "https://www.facebook.com/groups/1584402891870709/",
+      "https://www.youtube.com/watch?v"
     ],
     "label": "Calais",
     "name": "Calais"
-  },
-  {
-    "slug": "chalon-sur-saone",
-    "uri": "/ville/chalon-sur-saone",
-    "wiki_uri": "Villes/Chalon-sur-Saône",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Chalon-sur-Saône",
-    "links": [
-      "http://pad.powi.fr/p/NuitDebout",
-      "http://ndchalon.onvautmieuxqueca.info/"
-    ],
-    "label": "Chalon-sur-Saône",
-    "name": "Chalon-sur-Saône"
   },
   {
     "slug": "chambery",
@@ -180,6 +238,19 @@
     "name": "Chambéry"
   },
   {
+    "slug": "chalon-sur-saone",
+    "uri": "/ville/chalon-sur-saone",
+    "wiki_uri": "Villes/Chalon-sur-Saône",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Chalon-sur-Saône",
+    "links": [
+      "http://pad.powi.fr/p/NuitDebout",
+      "http://ndchalon.onvautmieuxqueca.info/",
+      "http://pad.powi.fr/p/NuitDebout-Action"
+    ],
+    "label": "Chalon-sur-Saône",
+    "name": "Chalon-sur-Saône"
+  },
+  {
     "slug": "clermont-ferrand",
     "uri": "/ville/clermont-ferrand",
     "wiki_uri": "Villes/Clermont-Ferrand",
@@ -191,13 +262,35 @@
     "name": "Clermont-Ferrand"
   },
   {
+    "slug": "creteil",
+    "uri": "/ville/creteil",
+    "wiki_uri": "Villes/Créteil",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Créteil",
+    "links": [],
+    "label": "Créteil",
+    "name": "Créteil"
+  },
+  {
     "slug": "figeac",
     "uri": "/ville/figeac",
     "wiki_uri": "Villes/Figeac",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Figeac",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/nuitsdeboutfigeac/"
+    ],
     "label": "Figeac",
     "name": "Figeac"
+  },
+  {
+    "slug": "dijon",
+    "uri": "/ville/dijon",
+    "wiki_uri": "Villes/Dijon",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Dijon",
+    "links": [
+      "https://wiki.nuitdebout.fr/wiki/Villes/Dijon/Ag_du_11_avril_2016_;"
+    ],
+    "label": "Dijon",
+    "name": "Dijon"
   },
   {
     "slug": "gap",
@@ -211,6 +304,17 @@
     "name": "Gap"
   },
   {
+    "slug": "gaillac",
+    "uri": "/ville/gaillac",
+    "wiki_uri": "Villes/Gaillac",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Gaillac",
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Gaillac"
+    ],
+    "label": "Gaillac",
+    "name": "Gaillac"
+  },
+  {
     "slug": "grasse",
     "uri": "/ville/grasse",
     "wiki_uri": "Villes/Grasse",
@@ -222,13 +326,13 @@
     "name": "Grasse"
   },
   {
-    "slug": "dijon",
-    "uri": "/ville/dijon",
-    "wiki_uri": "Villes/Dijon",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Dijon",
+    "slug": "la-rochelle",
+    "uri": "/ville/la-rochelle",
+    "wiki_uri": "Villes/La Rochelle",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/La Rochelle",
     "links": [],
-    "label": "Dijon",
-    "name": "Dijon"
+    "label": "La Rochelle",
+    "name": "La Rochelle"
   },
   {
     "slug": "grenoble",
@@ -242,24 +346,13 @@
     "name": "Grenoble"
   },
   {
-    "slug": "le-havre",
-    "uri": "/ville/le-havre",
-    "wiki_uri": "Villes/Le Havre",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Le Havre",
-    "links": [
-      "https://www.facebook.com/NuitDeboutLeHavre/"
-    ],
-    "label": "Le Havre",
-    "name": "Le Havre"
-  },
-  {
-    "slug": "la-rochelle",
-    "uri": "/ville/la-rochelle",
-    "wiki_uri": "Villes/La Rochelle",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/La Rochelle",
+    "slug": "la-cote-saint-andre",
+    "uri": "/ville/la-cote-saint-andre",
+    "wiki_uri": "Villes/La Côte-Saint-André",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/La Côte-Saint-André",
     "links": [],
-    "label": "La Rochelle",
-    "name": "La Rochelle"
+    "label": "La Côte-Saint-André",
+    "name": "La Côte-Saint-André"
   },
   {
     "slug": "laval",
@@ -284,6 +377,17 @@
     "name": "La Roche-sur-Yon"
   },
   {
+    "slug": "le-havre",
+    "uri": "/ville/le-havre",
+    "wiki_uri": "Villes/Le Havre",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Le Havre",
+    "links": [
+      "https://www.facebook.com/NuitDeboutLeHavre/"
+    ],
+    "label": "Le Havre",
+    "name": "Le Havre"
+  },
+  {
     "slug": "le-mans",
     "uri": "/ville/le-mans",
     "wiki_uri": "Villes/Le Mans",
@@ -304,17 +408,15 @@
     "name": "Les Sables d'Olonne"
   },
   {
-    "slug": "lille",
-    "uri": "/ville/lille",
-    "wiki_uri": "Villes/Lille",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lille",
+    "slug": "le-puy-en-velay",
+    "uri": "/ville/le-puy-en-velay",
+    "wiki_uri": "Villes/Le Puy-en-Velay",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Le Puy-en-Velay",
     "links": [
-      "https://chat.nuitdebout.fr/channel/lille",
-      "https://twitter.com/NuitDeboutLille",
-      "https://framacalc.org/Alternatives-Nord"
+      "https://www.facebook.com/nuitdebout43/"
     ],
-    "label": "Lille",
-    "name": "Lille"
+    "label": "Le Puy-en-Velay",
+    "name": "Le Puy-en-Velay"
   },
   {
     "slug": "limoges",
@@ -322,10 +424,25 @@
     "wiki_uri": "Villes/Limoges",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Limoges",
     "links": [
-      "http://nuitdeboutlimoges.fr"
+      "http://nuitdeboutlimoges.fr",
+      "https://www.facebook.com/assemblee.spontanee.limousin/"
     ],
     "label": "Limoges",
     "name": "Limoges"
+  },
+  {
+    "slug": "lille",
+    "uri": "/ville/lille",
+    "wiki_uri": "Villes/Lille",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lille",
+    "links": [
+      "https://chat.nuitdebout.fr/channel/lille",
+      "https://twitter.com/NuitDeboutLille",
+      "https://framacalc.org/Alternatives-Nord",
+      "http://www.nuitdebout.fr/ville/lille/"
+    ],
+    "label": "Lille",
+    "name": "Lille"
   },
   {
     "slug": "lodeve",
@@ -344,7 +461,8 @@
     "wiki_uri": "Villes/Lorient",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lorient",
     "links": [
-      "https://www.facebook.com/LorientDebout"
+      "https://www.facebook.com/LorientDebout",
+      "https://www.loomio.org/g/FlZDr9gH/nuit-debout-lorient"
     ],
     "label": "Lorient",
     "name": "Lorient"
@@ -375,11 +493,22 @@
     "name": "Manosque"
   },
   {
+    "slug": "mantes-la-jolie",
+    "uri": "/ville/mantes-la-jolie",
+    "wiki_uri": "Villes/Mantes la Jolie",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Mantes la Jolie",
+    "links": [],
+    "label": "Mantes la Jolie",
+    "name": "Mantes la Jolie"
+  },
+  {
     "slug": "marseille",
     "uri": "/ville/marseille",
     "wiki_uri": "Villes/Marseille",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Marseille",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/groups/1260684377283035/"
+    ],
     "label": "Marseille",
     "name": "Marseille"
   },
@@ -395,6 +524,17 @@
     "name": "Metz"
   },
   {
+    "slug": "montargis",
+    "uri": "/ville/montargis",
+    "wiki_uri": "Villes/Montargis",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Montargis",
+    "links": [
+      "https://www.facebook.com/events/1735681776708161/]"
+    ],
+    "label": "Montargis",
+    "name": "Montargis"
+  },
+  {
     "slug": "montpellier",
     "uri": "/ville/montpellier",
     "wiki_uri": "Villes/Montpellier‎",
@@ -404,6 +544,17 @@
     ],
     "label": "Montpellier",
     "name": "Montpellier"
+  },
+  {
+    "slug": "montbeliard",
+    "uri": "/ville/montbeliard",
+    "wiki_uri": "Villes/Montbéliard",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Montbéliard",
+    "links": [
+      "https://www.facebook.com/Nuit-debout-Pays-de-Montbeliard-877353599042561/"
+    ],
+    "label": "Montbéliard",
+    "name": "Montbéliard"
   },
   {
     "slug": "montreuil",
@@ -420,7 +571,8 @@
     "wiki_uri": "Villes/Nancy",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Nancy",
     "links": [
-      "https://www.facebook.com/nuitdeboutstan/"
+      "https://www.facebook.com/nuitdeboutstan/",
+      "https://framadrop.org/r/5mQSFKM010#wdBQ5A3lTTcCVDqUrU2BG6m8iUQp2sz8BA+0yqc06Jc"
     ],
     "label": "Nancy",
     "name": "Nancy"
@@ -442,10 +594,22 @@
     "wiki_uri": "Villes/Nice",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Nice",
     "links": [
-      "https://www.facebook.com/nicedebout/"
+      "https://www.facebook.com/nicedebout/",
+      "https://wiki.nuitdebout.fr/wiki/Villes/Nice/Culture"
     ],
     "label": "Nice",
     "name": "Nice"
+  },
+  {
+    "slug": "niort",
+    "uri": "/ville/niort",
+    "wiki_uri": "Villes/Niort",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Niort",
+    "links": [
+      "https://www.facebook.com/nuitdeboutniort/posts/1760099507570116"
+    ],
+    "label": "Niort",
+    "name": "Niort"
   },
   {
     "slug": "nimes",
@@ -459,15 +623,27 @@
     "name": "Nimes"
   },
   {
-    "slug": "niort",
-    "uri": "/ville/niort",
-    "wiki_uri": "Villes/Niort",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Niort",
+    "slug": "paris",
+    "uri": "/ville/paris",
+    "wiki_uri": "Villes/Paris",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Paris",
     "links": [
-      "https://www.facebook.com/nuitdeboutniort/posts/1760099507570116"
+      "https://hebdo.framapad.org/p/ODJ_-_Jeudi_14",
+      "https://twitter.com/nuitdeboutparis",
+      "https://www.facebook.com/Commission-%C3%A9conomie-NuitDebout-Paris-1691642561117462/",
+      "https://www.facebook.com/commission.jury.citoyen.nuitdebout.paris/",
+      "http://gazettedebout.wordpress.com",
+      "https://www.facebook.com/NuitDebout/",
+      "https://www.facebook.com/NuitDeboutParisOff/",
+      "https://nuitdebout.tumblr.com/",
+      "https://storify.com/nuitdebout/",
+      "http://ateliersconstituants.org/",
+      "https://www.facebook.com/events/2228485394095161/",
+      "https://www.facebook.com/Nuit-Debout-%C3%89duc-975816055837008/?notif_t=page_fan&amp;notif_id=1460298902062289",
+      "https://twitter.com/NuitDeboutEduc"
     ],
-    "label": "Niort",
-    "name": "Niort"
+    "label": "Paris",
+    "name": "Paris"
   },
   {
     "slug": "nontron",
@@ -493,31 +669,6 @@
     "name": "Orléans"
   },
   {
-    "slug": "paris",
-    "uri": "/ville/paris",
-    "wiki_uri": "Villes/Paris",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Paris",
-    "links": [
-      "https://hebdo.framapad.org/p/ODJ_-_Jeudi_14",
-      "https://twitter.com/nuitdeboutparis",
-      "https://www.facebook.com/Commission-%C3%A9conomie-NuitDebout-Paris-1691642561117462/",
-      "https://www.facebook.com/commission.jury.citoyen.nuitdebout.paris/",
-      "http://gazettedebout.wordpress.com",
-      "https://www.facebook.com/NuitDebout/",
-      "https://twitter.com/nuitdeboutparis",
-      "https://www.facebook.com/NuitDeboutParisOff/",
-      "https://nuitdebout.tumblr.com/",
-      "https://storify.com/nuitdebout/",
-      "http://ateliersconstituants.org/",
-      "https://www.facebook.com/events/2228485394095161/",
-      "https://www.facebook.com/Nuit-Debout-%C3%89duc-975816055837008/?notif_t=page_fan&amp;notif_id=1460298902062289",
-      "https://twitter.com/NuitDeboutEduc",
-      "https://www.facebook.com/commission.jury.citoyen.nuitdebout.paris/"
-    ],
-    "label": "Paris",
-    "name": "Paris"
-  },
-  {
     "slug": "perpignan",
     "uri": "/ville/perpignan",
     "wiki_uri": "Villes/Perpignan",
@@ -538,6 +689,17 @@
     "name": "Poitiers"
   },
   {
+    "slug": "quimper",
+    "uri": "/ville/quimper",
+    "wiki_uri": "Villes/Quimper",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Quimper",
+    "links": [
+      "https://www.facebook.com/nuitdeboutquimper/"
+    ],
+    "label": "Quimper",
+    "name": "Quimper"
+  },
+  {
     "slug": "rambouillet",
     "uri": "/ville/rambouillet",
     "wiki_uri": "Villes/Rambouillet",
@@ -549,24 +711,27 @@
     "name": "Rambouillet"
   },
   {
+    "slug": "rodez",
+    "uri": "/ville/rodez",
+    "wiki_uri": "Villes/Rodez",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Rodez",
+    "links": [
+      "https://www.facebook.com/nuitdeboutrodez/"
+    ],
+    "label": "Rodez",
+    "name": "Rodez"
+  },
+  {
     "slug": "rennes",
     "uri": "/ville/rennes",
     "wiki_uri": "Villes/Rennes",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Rennes",
     "links": [
-      "https://www.facebook.com/events/198460147206477/"
+      "https://www.facebook.com/events/198460147206477/",
+      "https://www.facebook.com/events/255153201493319/"
     ],
     "label": "Rennes",
     "name": "Rennes"
-  },
-  {
-    "slug": "rodez",
-    "uri": "/ville/rodez",
-    "wiki_uri": "Villes/Rodez",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Rodez",
-    "links": [],
-    "label": "Rodez",
-    "name": "Rodez"
   },
   {
     "slug": "rouen",
@@ -578,6 +743,15 @@
     ],
     "label": "Rouen",
     "name": "Rouen"
+  },
+  {
+    "slug": "saint-aubin-du-cormier",
+    "uri": "/ville/saint-aubin-du-cormier",
+    "wiki_uri": "Villes/Saint-Aubin-du-Cormier",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Saint-Aubin-du-Cormier",
+    "links": [],
+    "label": "Saint-Aubin-du-Cormier",
+    "name": "Saint-Aubin-du-Cormier"
   },
   {
     "slug": "saint-denis-de-la-reunion",
@@ -604,8 +778,8 @@
   {
     "slug": "saint-leu",
     "uri": "/ville/saint-leu",
-    "wiki_uri": "Villes/Saint Leu",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Saint Leu",
+    "wiki_uri": "Villes/Saint-Leu",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Saint-Leu",
     "links": [],
     "label": "Saint-Leu",
     "name": "Saint-Leu"
@@ -620,6 +794,17 @@
     "name": "Saint-Malo"
   },
   {
+    "slug": "saint-ouen",
+    "uri": "/ville/saint-ouen",
+    "wiki_uri": "Villes/Saint-Ouen",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Saint-Ouen",
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Saint-Ouen-281100168888609/?fref"
+    ],
+    "label": "Saint-Ouen",
+    "name": "Saint-Ouen"
+  },
+  {
     "slug": "strasbourg",
     "uri": "/ville/strasbourg",
     "wiki_uri": "Villes/Strasbourg",
@@ -629,6 +814,17 @@
     ],
     "label": "Strasbourg",
     "name": "Strasbourg"
+  },
+  {
+    "slug": "saint-quentin-en-yvelines",
+    "uri": "/ville/saint-quentin-en-yvelines",
+    "wiki_uri": "Villes/Saint-Quentin-en-Yvelines",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Saint-Quentin-en-Yvelines",
+    "links": [
+      "http://www.poll-maker.com/poll655396x6839B617-27"
+    ],
+    "label": "Saint-Quentin-en-Yvelines",
+    "name": "Saint-Quentin-en-Yvelines"
   },
   {
     "slug": "tarbes",
@@ -646,40 +842,11 @@
     "uri": "/ville/toulon",
     "wiki_uri": "Villes/Toulon",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Toulon",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Toulon-511734099008698/"
+    ],
     "label": "Toulon",
     "name": "Toulon"
-  },
-  {
-    "slug": "tours",
-    "uri": "/ville/tours",
-    "wiki_uri": "Villes/Tours",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Tours",
-    "links": [
-      "https://www.facebook.com/events/522028684652949/"
-    ],
-    "label": "Tours",
-    "name": "Tours"
-  },
-  {
-    "slug": "troyes",
-    "uri": "/ville/troyes",
-    "wiki_uri": "Villes/Troyes",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Troyes",
-    "links": [
-      "https://www.facebook.com/Nuit-Debout-Troyes-1731109490506671/"
-    ],
-    "label": "Troyes",
-    "name": "Troyes"
-  },
-  {
-    "slug": "villejuif",
-    "uri": "/ville/villejuif",
-    "wiki_uri": "Villes/Villejuif",
-    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Villejuif",
-    "links": [],
-    "label": "Villejuif",
-    "name": "Villejuif"
   },
   {
     "slug": "toulouse",
@@ -704,11 +871,78 @@
     "name": "Toulouse"
   },
   {
+    "slug": "tours",
+    "uri": "/ville/tours",
+    "wiki_uri": "Villes/Tours",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Tours",
+    "links": [
+      "https://www.facebook.com/events/522028684652949/"
+    ],
+    "label": "Tours",
+    "name": "Tours"
+  },
+  {
+    "slug": "troyes",
+    "uri": "/ville/troyes",
+    "wiki_uri": "Villes/Troyes",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Troyes",
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Troyes-1731109490506671/",
+      "https://www.facebook.com/permalink.php?story_fbid"
+    ],
+    "label": "Troyes",
+    "name": "Troyes"
+  },
+  {
+    "slug": "valence",
+    "uri": "/ville/valence",
+    "wiki_uri": "Villes/Valence",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Valence",
+    "links": [
+      "http://www.nuitdeboutvalence.fr"
+    ],
+    "label": "Valence",
+    "name": "Valence"
+  },
+  {
+    "slug": "villejuif",
+    "uri": "/ville/villejuif",
+    "wiki_uri": "Villes/Villejuif",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Villejuif",
+    "links": [
+      "https://www.facebook.com/Villejuif-debout-1017360188300684"
+    ],
+    "label": "Villejuif",
+    "name": "Villejuif"
+  },
+  {
+    "slug": "valenciennes",
+    "uri": "/ville/valenciennes",
+    "wiki_uri": "Villes/Valenciennes",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Valenciennes",
+    "links": [],
+    "label": "Valenciennes",
+    "name": "Valenciennes"
+  },
+  {
+    "slug": "leipzig",
+    "uri": "/ville/leipzig",
+    "wiki_uri": "Villes/Leipzig",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Leipzig",
+    "links": [
+      "https://www.facebook.com/Nuit-Debout-Leipzig-1529964443974929/"
+    ],
+    "label": "Leipzig",
+    "name": "Leipzig"
+  },
+  {
     "slug": "bruxelles",
     "uri": "/ville/bruxelles",
     "wiki_uri": "Villes/Bruxelles",
     "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bruxelles",
-    "links": [],
+    "links": [
+      "https://www.facebook.com/NuitDeboutB/"
+    ],
     "label": "Bruxelles",
     "name": "Bruxelles"
   },
@@ -722,6 +956,17 @@
     ],
     "label": "Liège",
     "name": "Liège"
+  },
+  {
+    "slug": "louvain-la-neuve",
+    "uri": "/ville/louvain-la-neuve",
+    "wiki_uri": "Villes/Louvain-la-Neuve",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Louvain-la-Neuve",
+    "links": [
+      "http://www.facebook.com/nuitdeboutlln/"
+    ],
+    "label": "Louvain-la-Neuve",
+    "name": "Louvain-la-Neuve"
   },
   {
     "slug": "namur",
@@ -762,5 +1007,27 @@
     "links": [],
     "label": "Amsterdam",
     "name": "Amsterdam"
+  },
+  {
+    "slug": "bilbao",
+    "uri": "/ville/bilbao",
+    "wiki_uri": "Villes/Bilbao",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Bilbao",
+    "links": [
+      "https://m15mbizkaia.wordpress.com/2016/04/13/nocheen-pie-y-asamblea-abierta-en-apoyo-de-la-nuit-debout-francesa-el-sabado-16-de-abril-a-partir-de-las-1900-h-plaza-del-arriaga-de-bilbao/|"
+    ],
+    "label": "Bilbao",
+    "name": "Bilbao"
+  },
+  {
+    "slug": "lisboa-lisbonne",
+    "uri": "/ville/lisboa-lisbonne",
+    "wiki_uri": "Villes/Lisboa (Lisbonne)",
+    "wiki_url": "https://wiki.nuitdebout.fr/wiki/Villes/Lisboa (Lisbonne)",
+    "links": [
+      "https://www.facebook.com/Noite-de-Pé-NuitDebout-Portugal-1586347061679785/"
+    ],
+    "label": "Lisboa (Lisbonne)",
+    "name": "Lisboa (Lisbonne)"
   }
 ]
