@@ -104,4 +104,9 @@
         });
     });
 
+
+    // masonry for cards smoother "flux"
+
+    $(".masonry-container").masonry();
+
 })(jQuery);
