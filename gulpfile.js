@@ -145,6 +145,15 @@ gulp.task('import:reports', function() {
 
 gulp.task('import', ['import:cities', 'import:reports']);
 
+var callSlugs = {
+  "ca": "crida-internacional-de-nuit-debout",
+  "el": slug("Διεθνές-Κάλεσμα-του-κινήματος-nuit-debout", {lower: true}),
+  "en": "international-call-by-nuit-debout",
+  "es": "llamada-internacional-de-nuit-debout",
+  "it": "appello-internazionale-di-nuit-debout",
+  "fr": "appel-international-de-nuit-debout"
+}
+
 gulp.task('sitemap', function() {
 
   var cities = JSON.parse(fs.readFileSync('data/cities.json').toString());
@@ -152,6 +161,11 @@ gulp.task('sitemap', function() {
   var urls = [
     {url: '/', changefreq: 'daily'}
   ];
+
+  _.each(callSlugs, function(slug, language) {
+    var uri = ((language === 'fr' ? '/'+slug : '/'+language+'/'+slug)+'.html')
+    urls.push({url: uri, changefreq: 'daily'});
+  })
 
   var citiesURLs = cities.map(function(city) {
     return {
@@ -169,15 +183,6 @@ gulp.task('sitemap', function() {
 
   fs.writeFileSync('./sitemap.xml', sitemap.toString());
 });
-
-var callSlugs = {
-  "ca": "crida-internacional-de-nuit-debout",
-  "el": slug("Διεθνές-Κάλεσμα-του-κινήματος-nuit-debout", {lower: true}),
-  "en": "international-call-by-nuit-debout",
-  "es": "llamada-internacional-de-nuit-debout",
-  "it": "appello-internazionale-di-nuit-debout",
-  "fr": "appel-international-de-nuit-debout"
-}
 
 /**
  * Generates the index.html file using Handlebars.
