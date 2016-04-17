@@ -223,19 +223,24 @@ gulp.task('website', ['website:international'], function() {
   cities.forEach(function(city) {
     var dir = './ville/' + slug(city.label, {lower: true});
     var file = dir + '/index.html';
-    if (!fs.existsSync(dir)){
+    if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir);
     }
 
     var hasOwnWebsite = websites.hasOwnProperty(city.slug)
       , websiteURL = hasOwnWebsite ? websites[city.slug] : undefined;
 
+    var tpl = tplCity;
+    if (fs.existsSync('./templates/cities/'+city.slug+'.hbs')) {
+      tpl = Handlebars.compile(fs.readFileSync('./templates/cities/'+city.slug+'.hbs').toString());
+    }
+
     city = _.extend(city, {
       hasOwnWebsite: hasOwnWebsite,
       websiteURL: websiteURL
     });
 
-    fs.writeFileSync(file, tplCity({
+    fs.writeFileSync(file, tpl({
       city: city
     }));
   })
