@@ -221,3 +221,10 @@ footer.page-footer h5{
 .cities-chips .chip {
   margin-bottom: 20px;
 }
+
+.international-banner {
+  background-image: url(../img/international-call.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
