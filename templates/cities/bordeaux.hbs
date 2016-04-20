@@ -1,0 +1,61 @@
+{{> header navbar_class="navbar"}}
+
+<div class="container">
+  <div class="row">
+      <div class="col s12">
+        <h1 class="header center">{{city.label}}</h1>
+
+        <h5 class="center">Motion proposée à l’assemblée générale de Nuit Debout Bordeaux, le mercredi 13 avril / 44 mars 2016.</h5>
+
+        <p>
+        Au vu de l’urgence de <strong>lutter contre la Loi Travail</strong> proposée par le gouvernement et contre une augmentation de la pauvreté et de la précarisation de nos vies et de notre futur, qui touchera d’abord les plus fragiles d’entre nous.
+        </p>
+        <p>
+        Au vu de la nécessité de <strong>repenser notre société</strong>, saturée par le chômage de masse, la misère, les inégalités grandissantes, la crise écologique, le désinvestissement de l’État, la suppression du service public, la diminution des libertés, la crise de la démocratie représentative, le racisme, le sexisme, l’homophobie, l’individualisme.
+        </p>
+        <p>
+        Au vu du succès du mouvement Nuit Debout, avec 150 places occupées en France et des dizaines dans le monde, qui illustre le besoin de <strong>se rassembler, de dialoguer et de réinventer ensemble notre société.</strong>
+        </p>
+        <p>
+        Nous, membres des Nuits Debout de France, réunis en assemblée générale, appelons l’ensemble des révoltés à : -  participer à la manifestation du 28 avril 2016 contre la Loi Travail. - se déclarer en grève générale reconductible dans l’ensemble des secteurs à partir de cette date. Les Nuits Debout signataires se déclarent solidaires de la mise en place de tout espace démocratique et de lutte.
+        </p>
+        <p>
+        Les membres de Nuit Debout Bordeaux proposent que cette motion soit présentée et votée dans toutes les Nuits Debout de France, afin que cet appel à la lutte soit national. Et pour ce faire, demandent que cette motion soit publiée sur le site internet national nuitdebout.fr, afin que que chaque Nuit Debout de France puisse s'en saisir et y ajouter sa signature.
+        </p>
+        <p>
+        Chaque Nuit Debout ou membre des Nuits Debout peut ajouter sa signature en signant cette pétition :
+        </p>
+
+        <p class="center"><strong>Les Nuits Debout appellent à la manifestation du 28 avril et à la grève générale.</strong></p>
+        <p class="center">
+          <a href="https://www.change.org/p/nuits-debouts-de-france-motion-les-nuits-debout-appellent-%C3%A0-la-manifestation-du-28-avril-et-%C3%A0-la-gr%C3%A8ve-g%C3%A9n%C3%A9rale" class="waves-effect waves-light btn-large">Signer la pétition</a>
+        </p>
+        </p>
+
+        <hr>
+
+        <p class="center">
+          Pour connaître le lieu des rassemblements,
+        </p>
+        <p class="center">
+          Pour ajouter des informations sur votre Nuit Debout,
+        </p>
+        <p class="center">
+          Pour collecter le travail des commissions et le mettre en forme,
+        </p>
+        <p class="center">
+          <a href="{{city.wiki_url}}" class="waves-effect waves-light btn-large">Venez sur le Wiki.</a>
+        </p>
+
+        <div class="collection center">
+          {{#each city.links}}
+            <a href="{{this}}" class="collection-item">{{this}}</a>
+          {{/each}}
+        </div>
+
+        <p class="center">Vous voulez compléter cette page, ajouter des liens ? Venez sur le <a href="http://chat.nuitdebout.fr">chat</a>.</p>
+      </div>
+  </div>
+</div>
+
+{{> footer }}
