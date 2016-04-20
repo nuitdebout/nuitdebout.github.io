@@ -155,7 +155,7 @@ var callSlugs = {
   "hr": "Pozivamo-na-GLOBALDEBOUT",
   "rs": "meunarodni-poziv-nuitdebout",
   "ro": "APEL-INTERNAȚIONAL-PENTRU-NUITDEBOUT",
-  "sq": "THIRRJE-NDERKOMBETARE-PER-NUITDEBOUT", 
+  "sq": "THIRRJE-NDERKOMBETARE-PER-NUITDEBOUT",
   "de": "internationaler-Aufruf-von-NuitDebout"
 }
 
@@ -276,7 +276,7 @@ gulp.task('website:international', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['templates/*.hbs', 'templates/partials/*.hbs', 'templates/international/*.hbs'], ['website'])
+  gulp.watch(['templates/*.hbs', 'templates/partials/*.hbs', 'templates/international/*.hbs', 'templates/cities/*.hbs'], ['website'])
 });
 
 gulp.task('serve', ['watch'], serve('./'));
