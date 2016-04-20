@@ -153,7 +153,7 @@ var callSlugs = {
   "it": "appello-internazionale-di-nuit-debout",
   "fr": "appel-international-de-nuit-debout",
   "hr": "Pozivamo-na-GLOBALDEBOUT",
-  "rs": slug("МЕЂУНАРОДНИ-ПОЗИВ-NUITDEBOUT", {lower: true}),
+  "rs": "meunarodni-poziv-nuitdebout",
   "ro": "APEL-INTERNAȚIONAL-PENTRU-NUITDEBOUT",
   "sq": "THIRRJE-NDERKOMBETARE-PER-NUITDEBOUT", 
   "de": "internationaler-Aufruf-von-NuitDebout"
