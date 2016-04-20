@@ -151,7 +151,12 @@ var callSlugs = {
   "en": "international-call-by-nuit-debout",
   "es": "llamada-internacional-de-nuit-debout",
   "it": "appello-internazionale-di-nuit-debout",
-  "fr": "appel-international-de-nuit-debout"
+  "fr": "appel-international-de-nuit-debout",
+  "hr": "Pozivamo-na-GLOBALDEBOUT",
+  "rs": slug("МЕЂУНАРОДНИ-ПОЗИВ-NUITDEBOUT", {lower: true}),
+  "ro": "APEL-INTERNAȚIONAL-PENTRU-NUITDEBOUT",
+  "sq": "THIRRJE-NDERKOMBETARE-PER-NUITDEBOUT", 
+  "de": "internationaler-Aufruf-von-NuitDebout"
 }
 
 gulp.task('sitemap', function() {
