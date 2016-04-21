@@ -109,4 +109,15 @@
 
     $(".masonry-container").masonry();
 
+    var d = new Date();
+    var today = [
+      d.getFullYear(),
+      ('0' + (d.getMonth() + 1)).slice(-2),
+      ('0' + d.getDate()).slice(-2)
+    ].join('-');
+
+    // Set OpenAgenda date to today
+    var oaQuery = '?oaq[from]=' + today + '&oaq[to]=' + today;
+    $('.cibulFrame.cbpgbdy').attr('src', $('.cibulFrame.cbpgbdy').attr('src') + oaQuery);
+
 })(jQuery);
