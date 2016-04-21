@@ -125,20 +125,6 @@ nav ul li:hover, nav ul li:active, nav ul li:focus, nav ul li.active {
   vertical-align: middle;
 }
 
-#calendar dt {
-  margin-top: 5px;
-}
-#calendar dd {
-  margin-left: 0;
-}
-#calendar ul {
-  margin: 0;
-}
-#calendar li {
-  list-style-type: initial;
-  margin-left: 20px;
-}
-
 .social-icons.facebook,.social-icons.twitter,.social-icons.periscope,.social-icons.github{
   -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
