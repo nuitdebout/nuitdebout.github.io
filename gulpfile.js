@@ -24,15 +24,19 @@ function getCities(callback)
       var pieces = city.split('|')
         , wiki_uri = pieces[0]
         , label = pieces[1];
-      cities.push({
-        slug: slug(label, {lower: true}),
-        uri: '/ville/' + slug(label, {lower: true}),
-        wiki_uri: wiki_uri,
-        wiki_url: 'https://wiki.nuitdebout.fr/wiki/'+wiki_uri,
-        links: [],
-        label: label,
-        name: label
-      });
+      try {
+        cities.push({
+          slug: slug(label, {lower: true}),
+          uri: '/ville/' + slug(label, {lower: true}),
+          wiki_uri: wiki_uri,
+          wiki_url: 'https://wiki.nuitdebout.fr/wiki/'+wiki_uri,
+          links: [],
+          label: label,
+          name: label
+        });
+      } catch (e) {
+        console.log(e)
+      }
     });
 
     var agendaRegex = /== Calendrier ==([^=]+)/g;
